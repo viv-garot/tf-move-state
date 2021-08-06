@@ -1,0 +1,8 @@
+module "mymodule"{
+  source = "../random_pet"
+}
+
+resource "null_resource" "hello" {
+  provisioner "local-exec" {
+    command = "echo Hello ${module.mymodule.random_pet}"
+}
