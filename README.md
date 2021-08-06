@@ -187,6 +187,12 @@ Apply complete! Resources: 0 added, 0 changed, 0 destroyed.
 
 ```
 terraform state list
+```
+
+_sample_:
+
+```
+terraform state list
 null_resource.hello
 module.mymodule.random_pet.name
 ```
@@ -242,7 +248,7 @@ Destroy complete! Resources: 2 destroyed.
 * Q. : What will happen if we didn't move the state after updating the code  ?
 * A. : The moved resource would need to be re-created (destroyed then created)
 
-_sample with same code executed, state mv command omited_ :
+_sample with same code executed, but state mv command omited_ :
 ```
 terraform apply
 random_pet.name: Refreshing state... [id=similarly-suddenly-tops-sunfish]
