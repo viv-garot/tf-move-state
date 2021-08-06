@@ -1,15 +1,13 @@
-# SkillMap-template
-Template for skillmap related tasks
+# Move state
 
 ## Description
-What the goal of this repo ?
+Learn move state
 
 ## Pre-requirements
 
 * [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) 
 * [Terraform cli](https://learn.hashicorp.com/tutorials/terraform/install-cli)
-* c
-* d
+
 
 ## How to use this repo
 
@@ -22,13 +20,13 @@ What the goal of this repo ?
 ### Clone the repo
 
 ```
-git clone xxxxxx
+git clone https://github.com/viv-garot/tf-move-state
 ```
 
 ### Change directory
 
 ```
-cd xxxxxx
+cd tf-move-state
 ```
 
 ### Run
